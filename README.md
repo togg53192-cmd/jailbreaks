@@ -4,10 +4,14 @@
 
 **A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models.**
 
-![Focus](https://img.shields.io/badge/focus-LLM%20instruction%20research-4c9f70)
-![Formats](https://img.shields.io/badge/formats-prompts%20%7C%20policies%20%7C%20Modelfiles-2f6f9f)
+![Prompts](https://img.shields.io/badge/prompts-32-4c9f70)
+![Targets](https://img.shields.io/badge/targets-26%2B-2f6f9f)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat&logo=github)
 ![Stars](https://img.shields.io/github/stars/togg53192-cmd/jailbreaks?style=flat&logo=github&color=yellow)
+
+<p align="center">
+ <a href="https://www.star-history.com/togg53192-cmd/jailbreaks"><img src="https://api.star-history.com/badge?repo=togg53192-cmd/jailbreaks&type=rank&theme=dark" alt="Star History Rank" /> <img src="https://api.star-history.com/badge?repo=togg53192-cmd/jailbreaks&type=trending&theme=dark" alt="GitHub Trending Repository of the Day" /></a>
+</p>
 
 </div>
 
@@ -15,9 +19,9 @@
 
 ## About
 
-A working collection of paste-ready prompts and instruction files spanning frontier and open-weight models, including complete system prompts, persona definitions, workspace policies, `AGENTS.md` files, configuration blocks, and Ollama Modelfiles.
+A working collection of **32 prompts targeting 26+ models**, including complete system prompts, persona definitions, workspace policies, `AGENTS.md` files, configuration blocks, and Ollama Modelfiles.
 
-Each listed file is intended to be complete and paste-ready—no summaries or partial excerpts.
+Every file is intended to be complete and paste-ready. No summaries. No partial excerpts.
 
 The collection covers:
 
@@ -27,7 +31,7 @@ The collection covers:
 - Coding-agent and workspace instruction formats
 - Ollama Modelfiles and harness-specific configuration
 
-**Start here:** [browse the collection](#collection) · [learn how to use each format](#how-to-use) · [contribute](#contributing) · [view Star History](#star-history).
+**New here?** Start with the [collection](#collection) or jump directly to [how to use](#how-to-use).
 
 > [!WARNING]
 > **Research and educational purposes only.**
@@ -37,8 +41,6 @@ The collection covers:
 > Do not use this material to harm others, bypass applicable laws, or violate the terms of service of a platform or model provider.
 
 ## Collection
-
-Choose a model family below, then open the file whose type matches the instruction surface you use. Each description notes its intended placement.
 
 ### OpenCode Zen — Free Stealth Models
 
@@ -127,8 +129,6 @@ Choose a model family below, then open the file whose type matches the instructi
 
 ## How to Use
 
-Choose the section that matches the type of file you opened, then adapt the placement to your client or harness.
-
 ### System Prompts
 
 Copy the contents of the relevant file into the system-prompt or custom-instructions field supported by your client or API.
@@ -187,7 +187,7 @@ Files intended as Grok configuration should be placed in the configuration field
 
 ## Contributing
 
-Pull requests that help keep the collection accurate and usable are welcome.
+Pull requests are welcome.
 
 A good contribution should follow these conventions:
 
@@ -218,9 +218,9 @@ Found something that no longer behaves as documented? Opening an issue with the 
 
 <a href="https://www.star-history.com/?repos=togg53192-cmd%2Fjailbreaks&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=togg53192-cmd/jailbreaks&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=togg53192-cmd/jailbreaks&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=togg53192-cmd/jailbreaks&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=togg53192-cmd/jailbreaks&type=date&theme=dark&logscale&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=togg53192-cmd/jailbreaks&type=date&logscale&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=togg53192-cmd/jailbreaks&type=date&logscale&legend=top-left" />
  </picture>
 </a>
 
