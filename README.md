@@ -102,7 +102,7 @@ The collection covers:
 | Model | File | Type |
 |---|---|---|
 | **Gemini 4 Argon** | [Gemini-4-Argon.md](./Gemini-4-Argon.md) | Operating policy |
-| **Gemini 3.1 Pro** | [Gemini-3.1-Pro.md](./gemini-3.1-pro.md) | System prompt |
+| **Gemini 3.1 Pro** | [Gemini-3.1-Pro.md](./raghavraut/gemini-3.1-pro.md) | System prompt |
 | **Mistral Large 4** | [Mistral-Large-4.md](./Mistral-Large-4.md) | Agent system prompt |
 | **Qwen 3.7** | [qwen-3.7.md](./qwen-3.7.md) | System prompt |
 | **Qwen 3.8** | [qwen-3.8.md](./qwen-3.8.md) | System prompt |
