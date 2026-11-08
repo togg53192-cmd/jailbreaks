@@ -42,77 +42,86 @@ The collection covers:
 
 | Model | File | Type |
 |---|---|---|
-| **Big Pickle** | [BigPickle-opencode.md](./BigPickle-opencode.md) | VANTA persona lock with explicit operating floor |
-| **Space Bunny** | [spacebunny-agents.md](./spacebunny-agents.md) | Assistant operating specification |
-| **LongCat 2.5** | [longcat-agents.md](./longcat-agents.md) | Assistant operating specification |
-| **MiMo V2.6** | [mimo-2.6-agents.md](./mimo-2.6-agents.md) | Assistant operating specification |
-| **Step 5 Preview** | [Step-5-preview.md](./Step-5-preview.md) | Workspace operating profile |
-| **Muse Spark 1.3** | [Muse spark 1.3.md](./Muse%20spark%201.3.md) | Agent deployment operating policy |
-| **Muse Spark 1.3 v2** | [Muse-spark-1-3-v2.md](./Muse-spark-1-3-v2.md) | Runtime scope-note variant |
-| **Muse.ai** | [muse-ai-AGENTS.md](./muse-ai-AGENTS.md) | Assistant operating specification |
+| **Big Pickle** | [BigPickle-opencode.md](./0x8D%20jailbreaks/BigPickle-opencode.md) | VANTA persona lock with explicit operating floor |
+| **Space Bunny** | [spacebunny-agents.md](./Stealth%20Models/spacebunny-agents.md) | Assistant operating specification |
+| **LongCat 2.5** | [longcat-agents.md](./Meituan/longcat-agents.md) | Assistant operating specification |
+| **MiMo V2.6** | [mimo-2.6-agents.md](./Xiaomi/mimo-2.6-agents.md) | Assistant operating specification |
+| **Step 5 Preview** | [Step-5-preview.md](./StepFun/Step-5-preview.md) | Workspace operating profile |
+| **Muse Spark 1.3** | [Muse spark 1.3.md](./Meta/Muse%20spark%201.3.md) | Agent deployment operating policy |
+| **Muse Spark 1.3 v2** | [Muse-spark-1-3-v2.md](./Meta/Muse-spark-1-3-v2.md) | Runtime scope-note variant |
+| **Muse.ai** | [muse-ai-AGENTS.md](./Meta/muse-ai-AGENTS.md) | Assistant operating specification |
+| **Muse Wonder** | [Muse-wonder.md](./Meta/Muse-wonder.md) | Agent operating instructions |
 
 ### Anthropic — Claude
 
 | Model | File | Type |
 |---|---|---|
-| **Opus** | [opus v1.md](./opus%20v1.md) · [opus v2.md](./opus%20v2.md) | Conversational groundwork persona, v1 / v2 |
-| **Sonnet** | [sonnet v1.md](./sonnet%20v1.md) · [Sonnet v2.md](./Sonnet%20v2.md) | Writer's-room framing, v1 / v2 |
+| **Opus** | [opus v1.md](./Anthropic/opus%20v1.md) · [opus v2.md](./Anthropic/opus%20v2.md) | Conversational groundwork persona, v1 / v2 |
+| **Sonnet** | [sonnet v1.md](./Anthropic/sonnet%20v1.md) · [Sonnet v2.md](./Anthropic/Sonnet%20v2.md) | Writer's-room framing, v1 / v2 |
 
 ### Zhipu — GLM / ZCode
 
 | Model | File | Type |
 |---|---|---|
-| **GLM-5.2** | [glm-5.2.md](./glm-5.2.md) | System prompt |
-| **GLM ZCode 5.2** | [glm-zcode-5.2.md](./glm-zcode-5.2.md) | System prompt |
-| **GLM ZCode 5.3** | [glm-zcode-5.3.md](./glm-zcode-5.3.md) · [glm-zcode-5.3-AGENTS.md](./glm-zcode-5.3-AGENTS.md) | System prompt + `AGENTS.md` drop-in |
-| **GLM-5.3 Flash** | [glm-5-3-flash.md](./glm-5-3-flash.md) | Assistant operating specification |
-| **GLM-5.3 (OpenCode)** | [glm5-3opencode.md](./glm5-3opencode.md) | Assistant operating specification |
+| **GLM-5.2** | [glm-5.2.md](./Zhipu%20AI/glm-5.2.md) | System prompt |
+| **GLM ZCode 5.2** | [glm-zcode-5.2.md](./Zhipu%20AI/glm-zcode-5.2.md) | System prompt |
+| **GLM ZCode 5.3** | [glm-zcode-5.3.md](./Zhipu%20AI/glm-zcode-5.3.md) · [glm-zcode-5.3-AGENTS.md](./Zhipu%20AI/glm-zcode-5.3-AGENTS.md) | System prompt + `AGENTS.md` drop-in |
+| **GLM-5.3 Flash** | [glm-5-3-flash.md](./Zhipu%20AI/glm-5-3-flash.md) | Assistant operating specification |
+| **GLM-5.3 (OpenCode)** | [glm5-3opencode.md](./Zhipu%20AI/glm5-3opencode.md) | Assistant operating specification |
 
 ### DeepSeek
 
 | Model | File | Type |
 |---|---|---|
-| **DeepSeek V3** | [deepseek v3.md](./deepseek%20v3.md) | System prompt |
-| **DeepSeek V4** | [deepseek v4.md](./deepseek%20v4.md) | System prompt |
-| **DeepSeek 4.1** | [deepseek-4-1.md](./deepseek-4-1.md) | Assistant operating specification |
+| **DeepSeek V3** | [deepseek v3.md](./DeepSeek/deepseek%20v3.md) | System prompt |
+| **DeepSeek V4** | [deepseek v4.md](./DeepSeek/deepseek%20v4.md) | System prompt |
+| **DeepSeek 4.1** | [deepseek-4-1.md](./DeepSeek/deepseek-4-1.md) | Assistant operating specification |
 
 ### Moonshot — Kimi
 
 | Model | File | Type |
 |---|---|---|
-| **Kimi K2** | [kimi-k2.md](./kimi-k2.md) | System prompt |
-| **Kimi K3** | [kimi-k3-agents.md](./kimi-k3-agents.md) | Workspace operating profile |
+| **Kimi K2** | [kimi-k2.md](./Moonshot%20AI/kimi-k2.md) | System prompt |
+| **Kimi K3** | [kimi-k3-agents.md](./Moonshot%20AI/kimi-k3-agents.md) | Workspace operating profile |
+| **Kimi K3.1** | [kimik3.1.md](./Moonshot%20AI/kimik3.1.md) | Assistant operating specification |
 
 ### xAI — Grok
 
 | Model | File | Type |
 |---|---|---|
-| **Grok Build** | [Grok build.md](./Grok%20build.md) | Agent operating instructions |
-| **Grok 4.7** | [grok-4.7.md](./grok-4.7.md) | App-builder workspace guide |
-| **Grok Config** | [grok-config.txt](./grok-config.txt) | `<CFG>` priority and routing configuration |
+| **Grok Build** | [Grok build.md](./xAI/Grok%20build.md) | Agent operating instructions |
+| **Grok 4.7** | [grok-4.7.md](./xAI/grok-4.7.md) | App-builder workspace guide |
+| **Grok Config** | [grok-config.txt](./xAI/grok-config.txt) | `<CFG>` priority and routing configuration |
 
 ### NVIDIA — Nemotron
 
 | Model | File | Type |
 |---|---|---|
-| **Nemotron 3 Ultra 550B A55B** | [nemotron-3-ultra.md](./nemotron-3-ultra.md) | Assistant operating specification |
+| **Nemotron 3 Ultra 550B A55B** | [nemotron-3-ultra.md](./modemnakata/nemotron-3-ultra.md) | Assistant operating specification |
 
-### Google / Mistral / Alibaba
+### Google
 
 | Model | File | Type |
 |---|---|---|
-| **Gemini 4 Argon** | [Gemini-4-Argon.md](./Gemini-4-Argon.md) | Operating policy |
+| **Gemma 4** | [gemma4.md](./Google/gemma4.md) | Ollama Modelfile |
+
+### Mistral / Alibaba
+
+| Model | File | Type |
+|---|---|---|
+| **Gemini 4 Argon** | [Gemini-4-Argon.md](./Google/Gemini-4-Argon.md) | Operating policy |
 | **Gemini 3.1 Pro** | [Gemini-3.1-Pro.md](./raghavraut/gemini-3.1-pro.md) | System prompt |
-| **Mistral Large 4** | [Mistral-Large-4.md](./Mistral-Large-4.md) | Agent system prompt |
-| **Qwen 3.7** | [qwen-3.7.md](./qwen-3.7.md) | System prompt |
-| **Qwen 3.8** | [qwen-3.8.md](./qwen-3.8.md) | System prompt |
+| **Mistral Large 4** | [Mistral-Large-4.md](./Mistral/Mistral-Large-4.md) | Agent system prompt |
+| **Qwen 3.7** | [qwen-3.7.md](./Alibaba/qwen-3.7.md) | System prompt |
+| **Qwen 3.8** | [qwen-3.8.md](./Alibaba/qwen-3.8.md) | System prompt |
+| **Qwen Preferences** | [qwen-preferences.md](./Alibaba/qwen-preferences.md) | Configuration/preferences |
 
 ### Ollama Modelfiles
 
 | Model | File | Type |
 |---|---|---|
-| **Gemma 4** | [gemma4.md](./gemma4.md) | `FROM` + `SYSTEM` block |
-| **GPT-OSS 20B** | [gpt-oss-20b.md](./gpt-oss-20b.md) | `FROM` + `SYSTEM` block |
+| **Gemma 4** | [gemma4.md](./Google/gemma4.md) | `FROM` + `SYSTEM` block |
+| **GPT-OSS 20B** | [gpt-oss-20b.md](./OpenAI/gpt-oss-20b.md) | `FROM` + `SYSTEM` block |
 
 ## How to Use
 
