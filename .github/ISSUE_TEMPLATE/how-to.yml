@@ -1,0 +1,33 @@
+name: Usage question
+description: Ask how to use a prompt — where it goes, which surface, why it behaves a certain way.
+title: "[how-to] <question>"
+labels: ["how-to"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Which file?
+      placeholder: "xAI/grok-config.txt"
+    validations:
+      required: true
+  - type: input
+    id: surface
+    attributes:
+      label: Where are you putting it?
+      description: System prompt, AGENTS.md, Modelfile, config slot, or chat message?
+      placeholder: "AGENTS.md in the repo root"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: What are you trying to do?
+    validations:
+      required: true
+  - type: checkboxes
+    id: read
+    attributes:
+      label: Before submitting
+      options:
+        - label: I read the "How to Use" section of the README.
+          required: true

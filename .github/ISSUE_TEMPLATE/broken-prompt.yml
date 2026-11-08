@@ -1,0 +1,68 @@
+name: Prompt stopped working
+description: A prompt in this collection no longer works on the model or surface it targets.
+title: "[broken] <model> — <short symptom>"
+labels: ["broken-prompt"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Models get updated constantly and prompts stop working. That is expected — this
+        template exists so the report is usable without a round of back-and-forth.
+
+        Before filing, please run the three checks below. Most reports turn out to be
+        one of them.
+  - type: input
+    id: file
+    attributes:
+      label: Which file?
+      description: Path in this repo, e.g. `0x8D jailbreaks/grok-fast-v2.md`
+      placeholder: "Anthropic/opus v2.md"
+    validations:
+      required: true
+  - type: input
+    id: surface
+    attributes:
+      label: Where did you run it?
+      description: The client or surface, not just the model. Behaviour differs between them.
+      placeholder: "opencode CLI / web chat / API / harness name + version"
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Exact model string
+      description: As reported by the provider. "latest" is not a version.
+      placeholder: "deepseek-v4.1-1017"
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When did it last work?
+      description: A date, or "never worked for me". This is what separates a model update from a broken file.
+      placeholder: "worked on Nov 5, broke Nov 7"
+    validations:
+      required: true
+  - type: textarea
+    id: symptom
+    attributes:
+      label: What happens instead?
+      description: Paste the actual refusal or behaviour. Redact anything personal.
+      placeholder: |
+        It replies "I can't help with that" instead of adopting the persona.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      description: Please confirm before submitting.
+      options:
+        - label: I pasted the file in full, not an excerpt.
+          required: true
+        - label: I put it in the system-prompt / instructions slot, not as the first chat message.
+          required: true
+        - label: I searched existing issues for this model.
+          required: true
+        - label: This is a report about a prompt in THIS repo, not a request for a new one.
+          required: false
