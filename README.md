@@ -75,6 +75,7 @@ The collection covers:
 | **DeepSeek V3** | [deepseek v3.md](./deepseek%20v3.md) | System prompt |
 | **DeepSeek V4** | [deepseek v4.md](./deepseek%20v4.md) | System prompt |
 | **DeepSeek 4.1** | [deepseek-4-1.md](./deepseek-4-1.md) | Assistant operating specification |
+| **DeepSeek V4.1 Flash** | [deepseek-v4-1-flash.md](./deepseek-v4-1-flash.md) | Operator brief (abliterated Venice build covered in full) |
 
 ### Moonshot — Kimi
 
