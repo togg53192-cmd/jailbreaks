@@ -1,0 +1,43 @@
+name: Request a model
+description: Ask for a new model, surface, or harness to be added.
+title: "[add] <model or surface>"
+labels: ["add-model"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Requests are easier to act on when they name the exact model string and where it
+        runs. "Add the new Gemini" is not actionable; a model id is.
+  - type: input
+    id: model
+    attributes:
+      label: Model or surface
+      description: Exact name as the provider reports it.
+      placeholder: "opencode pulse alpha free / gemini-3.8-flash"
+    validations:
+      required: true
+  - type: input
+    id: access
+    attributes:
+      label: How is it accessed?
+      description: Free tier, paid API, OpenCode Zen, local weights — this decides whether anyone can test it.
+      placeholder: "free tier via web chat"
+    validations:
+      required: true
+  - type: textarea
+    id: existing
+    attributes:
+      label: Does an existing prompt already come close?
+      description: Link a file in this repo if one targets a sibling model. Often the fix is a small variant, not a new file.
+      placeholder: "0x8D jailbreaks/gemini-chat.md works except for the last register block"
+    validations:
+      required: false
+  - type: checkboxes
+    id: contributions
+    attributes:
+      label: Contribution
+      options:
+        - label: I can test a prompt and report back with results.
+          required: false
+        - label: I have a working prompt and will open a PR.
+          required: false
