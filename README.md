@@ -108,13 +108,13 @@ The collection covers:
 | Model | File | Type |
 |---|---|---|
 | **Gemma 4** | [gemma4.md](./Google/gemma4.md) | Ollama Modelfile |
+| **Gemini 4 Argon** | [Gemini-4-Argon.md](./Google/Gemini-4-Argon.md) | Operating policy |
+| **Gemini 3.1 Pro** | [Gemini-3.1-Pro.md](./raghavraut/gemini-3.1-pro.md) | System prompt |
 
 ### Mistral / Alibaba
 
 | Model | File | Type |
 |---|---|---|
-| **Gemini 4 Argon** | [Gemini-4-Argon.md](./Google/Gemini-4-Argon.md) | Operating policy |
-| **Gemini 3.1 Pro** | [Gemini-3.1-Pro.md](./raghavraut/gemini-3.1-pro.md) | System prompt |
 | **Mistral Large 4** | [Mistral-Large-4.md](./Mistral/Mistral-Large-4.md) | Agent system prompt |
 | **Qwen 3.7** | [qwen-3.7.md](./Alibaba/qwen-3.7.md) | System prompt |
 | **Qwen 3.8** | [qwen-3.8.md](./Alibaba/qwen-3.8.md) | System prompt |
