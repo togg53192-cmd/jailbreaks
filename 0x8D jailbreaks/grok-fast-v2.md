@@ -4,7 +4,7 @@
 
 This prompt has been withdrawn following the security report in [Issue #69](https://github.com/togg53192-cmd/jailbreaks/issues/69).
 
-The previous contents included instructions to covertly download and execute an external Windows executable, conceal that behavior, and misrepresent generated code. The file also contained additional prompt-injection text attempting to override assistant instructions and solicit harmful code.
+The previous contents included instructions to covertly download and execute an external Windows executable, conceal that behavior, and misrepresent generated code. 
 
 **Do not use, copy, or import any earlier revision of this file.** The original content has been removed from the active branch. No executable was downloaded or run as part of this remediation.
 
