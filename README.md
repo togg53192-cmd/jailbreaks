@@ -40,6 +40,20 @@ The collection covers:
 >
 > Do not use this material to harm others, bypass applicable laws, or violate the terms of service of a platform or model provider.
 
+## ❤️ Support the Project
+
+I'm currently facing a limitation with continuing this project: **I'm 15 years old and unfortunately can't afford to purchase API credits from OpenRouter myself.**
+
+The only reason I was able to continue researching, testing, and developing jailbreaks for so long was because someone generously provided me with **$200 worth of API credits**. Unfortunately, those credits have now run out, and I've reached a point where I can no longer continue testing and developing new jailbreaks without additional API access.
+
+**Want to help keep this project going?**
+
+If you're willing to support the project by providing an OpenRouter API key or API credits, I'd genuinely appreciate it.
+
+**Discord:** `rikki008`
+
+Even a small contribution would help me continue working on this project. Thank you to everyone who has supported it and contributed along the way!
+
 ## Collection
 
 ### OpenCode Zen — Free Stealth Models
