@@ -123,6 +123,9 @@ Even a small contribution would help me continue working on this project. Thank 
 |---|---|---|
 | **Gemma 4** | [gemma4.md](./Google/gemma4.md) | Ollama Modelfile |
 | **Gemini 4 Argon** | [Gemini-4-Argon.md](./Google/Gemini-4-Argon.md) | Operating policy |
+| **Gemini 4 Carbon** | [Gemini-4-Carbon.md](./Google/Gemini-4-Carbon.md) | Content guidelines |
+| **Gemini 4 Hydrogen** | [Gemini-Hydrogen.md](./Google/Gemini-Hydrogen.md) | Content guidelines |
+| **Gemini 4 Neon** | [Gemini-4-Neon.md](./Google/Gemini-4-Neon.md) | Operating policy |
 | **Gemini 3.1 Pro** | [Gemini-3.1-Pro.md](./raghavraut/gemini-3.1-pro.md) | System prompt |
 
 ### Mistral / Alibaba
